@@ -1,0 +1,24 @@
+{
+  "hapi": {
+    "host": "localhost",
+    "port": 3000,
+    "options": {
+      "connections": {
+        "routes": {
+          "cors": true
+        }
+      }
+    }
+  },
+  "hapiPlugins" : {
+    "good": {
+      "active": true
+    },
+    "bell": {
+      "active": true
+    }
+  },
+  "mongodb": {
+    "connectionString": "mongodb://localhost/artishan"
+  }
+}
