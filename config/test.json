@@ -1,7 +1,9 @@
 {
   "hapi": {
-    "host": "localhost",
-    "port": 3000,
+    "connection":{
+      "host": "localhost",
+      "port": 3000
+    },
     "options": {
       "connections": {
         "routes": {
@@ -10,13 +12,9 @@
       }
     }
   },
-  "hapiPlugins" : {
-    "good": {
-      "active": true
-    },
-    "bell": {
-      "active": true
-    }
+  "google": {
+    "clientId": "",
+    "clientSecret": ""
   },
   "mongodb": {
     "connectionString": "mongodb://localhost/artishan"
